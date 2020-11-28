@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+@use './css-reset';
+html,
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.heading {
+  font-family: "Ubuntu";
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #434343;
+  height: 4em;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #f8f9fc;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.container-fluid .left img {
+  width: 150px;
+  height: auto;
+  position: relative;
+  margin: 2em auto;
+  border-radius: 50%;
+  background-color: #dddddd;
+}
+
+.container-fluid .left .edit-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.container-fluid .left .list-group-flush {
+  width: 20em;
+}
+
+.container-fluid .left .list-group-flush a {
+  display: inline;
+}
+
+.container-fluid .right {
+  background-color: #dddddd;
+}
+
+.container-fluid .right .card {
+  padding: 0;
+  width: 50em;
+  position: relative;
+  margin: 5em auto;
+}
+
+.container-fluid .right .sub-card {
+  margin-top: 2em;
+  max-width: 40em;
+}
+
+.container-fluid .right .sub-card .btn {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0.5em 0 0.5em 0.5em;
+}
+/*# sourceMappingURL=style.css.map */
