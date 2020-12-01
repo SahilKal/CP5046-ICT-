@@ -1,0 +1,15 @@
+
+//----------Navbar----------
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #434343;
+    height: 4em;
+    z-index: 1000;
+
+    a {
+        
+        text-decoration: none;
+        color: #f8f9fc;
+    }
+}

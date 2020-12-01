@@ -1,0 +1,66 @@
+
+// -----------------
+html,
+body {
+    //Important for bootstrap
+    font-size: 16px;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.heading {
+    font-family: $heading;
+}
+
+//----------Dashboard
+.container-fluid {
+    padding: 0;
+
+    //----------Left Section
+    .left {
+
+        img {
+            width: 150px;
+            height: auto;
+            position: relative;
+            margin: 2em auto;
+            border-radius: 50%;
+            background-color: #dddddd;
+        }
+
+        .edit-btn {
+            width: fit-content;
+        }
+
+        .list-group-flush {
+            a {
+                display: inline;
+            }
+
+            width: 20em;
+        }
+    }
+
+
+    //-----------Right Section
+    .right {
+        background-color: #dddddd;
+
+        .card {
+            padding: 0;
+            width: 50em;
+            position: relative;
+            margin: 5em auto;
+        }
+
+        .sub-card {
+            margin-top: 2em;
+            max-width: 40em;
+
+            .btn {
+                max-width: fit-content;
+                margin: 0.5em 0 0.5em 0.5em;
+            }
+        }
+    }
+}
